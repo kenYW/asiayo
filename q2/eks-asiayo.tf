@@ -136,7 +136,7 @@ module "asiayo_eks" {
       "user:costowner"   = "asiayo:shared"
     }
 
-    
+
   }
   # for nodegroup replacement operation, please comment out/in apply to avoid conflict naming.
   eks_managed_node_groups = {

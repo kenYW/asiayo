@@ -1,11 +1,11 @@
 provider "aws" {
-  region = "us-west-2"  # Change as needed
+  region = "us-west-2" # Change as needed
 }
 
 #############
 # provider info
 #############
 locals {
-  region       = "us-west-2"
+  region = "us-west-2"
 
 }
