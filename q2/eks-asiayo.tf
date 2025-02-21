@@ -204,7 +204,7 @@ module "asiayo_eks" {
 
 
 
-
+# deploy .yaml in eks after finish the set up in eks
 # sleep 5 * 60 = 300s timeout
 variable "asiayo_wait_for_cluster_cmd" {
   description = "Custom local-exec command to execute for determining if the eks cluster is healthy. Cluster endpoint will be available as an environment variable called ENDPOINT"
