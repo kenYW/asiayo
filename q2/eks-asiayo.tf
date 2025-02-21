@@ -1,9 +1,5 @@
 locals {
   asiayo_cluster_version          = "1.30"
-  asiayo_node_ami_minor_version   = "v20240703"
-  asiayo_addon_vpc_cni_version    = "v1.18.2-eksbuild.1"
-  asiayo_addon_kube_proxy_version = "v1.30.0-eksbuild.3"
-  asiayo_addon_coredns_version    = "v1.11.1-eksbuild.9"
 }
 
 # default eks ami
